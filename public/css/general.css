@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--colorGrisClaro);
+  font-family: 'Roboto';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+body .titulares {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+body .precios {
+  font-size: 18px;
+}
+
+body .descuentos {
+  font-size: 16px;
+  color: var(--colorVerde);
+}
+
+body .descripcion {
+  font-size: 16px;
+  padding: 20px 0;
+  /* padding-top: 20px; */
+  display: none;
+}
+
+body .texto {
+  font-size: 12px;
+}
+
+/* tablets */
+@media (min-width: 361px) {
+  body .descripcion {
+    display: block;
+  }
+}
+
+/* desktops */
+@media (min-width: 769px) {
+}

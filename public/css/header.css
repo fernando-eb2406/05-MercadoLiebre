@@ -1,0 +1,137 @@
+.header {
+  background-color: var(--colorAmarillo);
+  padding: 25px 0;
+}
+
+header .encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+header .imagen-logo {
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  width: 50%;
+  /* padding: 0 25px;
+  padding-bottom: 10px; */
+}
+
+header .logo {
+  width: 80%;
+}
+
+header .search-bar {
+  /* padding: 0 18px; */
+  display: flex;
+  width: 50%;
+}
+
+.search-bar input {
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+  height: 30px;
+  width: 75%;
+}
+
+.search-bar button {
+  background-color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+  height: 30px;
+  width: 25%;
+}
+
+header .compra {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header .contenido-centrado {
+  text-align: center;
+  padding: 8px;
+}
+
+header .barra-opciones {
+  padding: 8px 0;
+  font-size: 12px;
+  display: none;
+}
+
+header .burger-menu {
+  background-color: var(--colorCeleste);
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: 40px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* tablets */
+@media (min-width: 361px) {
+  header .encabezado {
+    /*  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+    margin: 0 15px;
+  }
+
+  header .imagen-logo {
+    width: 30%;
+  }
+
+  header .search-bar {
+    /* padding: 0 18px; */
+    /* display: flex; */
+    width: 30%;
+  }
+
+  header .compra {
+    width: 35%;
+    justify-content: end;
+  }
+
+  header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+  }
+
+  header .barra-opciones {
+    display: flex;
+    padding: 5px;
+  }
+
+  header .barra-opciones li {
+    padding: 5px;
+  }
+
+  header .burger-menu {
+    display: none;
+  }
+}
+
+/* desktops */
+@media (min-width: 769px) {
+  header .encabezado {
+    /*  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+    margin: 0 25px;
+  }
+
+  header .nav-bar {
+    margin: 0 10px;
+    padding-top: 10px;
+  }
+
+  header .barra-opciones li {
+    padding: 15px;
+  }
+}

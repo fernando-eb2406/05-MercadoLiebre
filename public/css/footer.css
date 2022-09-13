@@ -1,0 +1,49 @@
+footer {
+  background-color: white;
+  width: 100%;
+}
+
+footer .icono {
+  color: var(--colorCeleste);
+  text-align: center;
+  font-size: 2em;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+footer .titulos {
+  text-align: center;
+}
+
+footer .texto {
+  text-align: center;
+  padding: 0 60px;
+  margin-bottom: 35px;
+}
+
+footer .copyright {
+  padding: 18px;
+  font-size: 12px;
+}
+
+/* Tablet */
+@media (min-width: 361px) {
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section.footer {
+    width: 26%;
+  }
+
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
